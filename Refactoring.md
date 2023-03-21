@@ -11,6 +11,5 @@ You will be graded on the exhaustiveness and quality of your unit tests, the dep
 ## Your Explanation Here
 - For candidate variable, we set its default value equal to TRIVIAL_PARTITION_KEY,
 so we will invevitebly assign TRIVIAL_PARTITION_KEY in case we didnt assigned anything else before; 
-- If we assume that that event.partitionKey is string, we can remove string check, and .diget("hex") seems to return string;
 - Moved repeated opeartions with crypto methods to a separate function digestKey;
-- Moved all checks which required event presence after event case block;
+- Moved all checks which required event presence after "event doesnt exist" case block;
