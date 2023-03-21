@@ -21,7 +21,8 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 
 ### TICKET 1 
 - Add column for customIds for Connected Agent in the Facilities table
-- Acceptance criteria: There is a column fullfilled with custom ids generated in ConnectedAgents table 
+- Acceptance criteria: There is a column fullfilled with custom ids generated in ConnectedAgents table
+
 - Time: 1 story point
 
 ### TICKET 2
@@ -32,14 +33,14 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
  
       Table can include 2 columns:
       id(customId), facilityId();
-    
+
 - Time: 5 story point
 
 ### TICKET 3
 - Modify request in getShiftsByFacility for getting alongside with info about connected Agents from ConnectedAgents table
 - Acceptance criteria: 
      this function should extract agents which are connected with Shifts of a certain Facility, put them into ConnectedAgents table for a certain Facility id;
-  time: 3 story point
+- Time: 3 story point
 
 ### TICKET 4
 - Modify generateReport function so it will include customIds from Connected Agents into a Report;
